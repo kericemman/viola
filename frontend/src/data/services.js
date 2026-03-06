@@ -7,7 +7,7 @@ export const services = {
         description:
           "Strategic support for professionals navigating transition, stagnation, or growth.",
         features: [
-          "2 session of strategic career clarity and growth support",
+          "Strategic career clarity and growth support",
           "Career direction and repositioning",
           "Strengths and skills mapping",
           "Strategic decision-making support",
@@ -22,7 +22,7 @@ export const services = {
         description:
           "structured for CV, LinkedIn, and interview refinement for competitive markets.",
         features: [
-          "3 sessions for comprehensive career positioning support",
+          "comprehensive career positioning support",
           "CV restructuring",
           "Interview preparation",
           "LinkedIn optimization",
@@ -37,7 +37,7 @@ export const services = {
         description:
           "Structured growth support for new and existing managers.",
         features: [
-          "2 strategic coaching sessions for leadership growth",
+          "Coaching sessions for leadership growth",
           "People challenge navigation",
           "Feedback strategy",
           "Role boundary strengthening",

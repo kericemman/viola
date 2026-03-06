@@ -20,26 +20,26 @@ const About = () => {
   const values = [
     {
       icon: <Target className="w-6 h-6" />,
-      title: "Purpose-Driven",
-      description: "Aligning work with core values and meaningful objectives",
+      title: "People & Operations",
+      description: "Aligning people strategies with operational excellence",
       color: "#194C63"
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "People-Centered",
-      description: "Human-first approach to HR and development",
+      title: "Governance & Compliance",
+      description: "Building systems that support ethical and effective leadership",
       color: "#B3785A"
     },
     {
       icon: <Heart className="w-6 h-6" />,
-      title: "Empathetic",
-      description: "Understanding challenges with compassion and insight",
+      title: "Organization Restructuring",
+      description: "Designing structures that empower teams and drive performance",
       color: "#3C637B"
     },
     {
       icon: <TrendingUp className="w-6 h-6" />,
-      title: "Growth-Focused",
-      description: "Sustainable strategies for long-term development",
+      title: "Recruitment & Workforce Planning",
+      description: "Creating talent strategies that fuel growth and innovation",
       color: "#748DB0"
     }
   ];
@@ -87,17 +87,17 @@ const About = () => {
               </div>
 
               <h1 
-                className="text-2xl sm:text-5xl lg:text-6xl font-bold leading-tight"
+                className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight"
                 style={{ 
                   color: "#194C63",
                   fontFamily: "'Comfortaa', cursive"
                 }}
               >
-                Where{" "}
+                Where {" "}
                 <span style={{ color: "#B3785A" }}>People</span>
                 <br />
-                Meet{" "}
-                <span style={{ color: "#B3785A" }}>Purpose</span>
+                Structure &  Leadership{" "}
+                <span style={{ color: "#B3785A" }}>Intersect</span>
               </h1>
 
               <p 
@@ -107,8 +107,7 @@ const About = () => {
                   fontFamily: "'Comfortaa', cursive"
                 }}
               >
-                I work at the intersection of human potential, organizational growth,
-                and meaningful progress.
+                I work at the intersection of people, systems, and leadership.
               </p>
 
               {/* Quick Stats */}
@@ -231,9 +230,8 @@ const About = () => {
                   fontFamily: "'Comfortaa', cursive"
                 }}
               >
-                With a background in Human Resources and personal development, 
-                I help individuals and organizations build clarity, confidence, 
-                and systems that support real, sustainable growth.
+                With over eight years of experience across HR, operations, and organisational development, my work has expanded far beyond traditional human resources. I have worked inside fast-moving environments where unclear processes, fragile structures, and shifting priorities directly affected teams, performance, and morale.
+
               </p>
               
               <p 
@@ -243,11 +241,10 @@ const About = () => {
                   fontFamily: "'Comfortaa', cursive"
                 }}
               >
-                My journey began in corporate HR, where I saw firsthand how 
-                traditional approaches often missed the human element. This led 
-                me to integrate coaching methodologies, creating a holistic 
-                approach that balances organizational needs with individual 
-                growth.
+                That experience reshaped how I approach organisations.
+I do not see HR as an isolated function.
+I see it as part of the system that determines whether institutions hold their people, or quietly exhaust them.
+
               </p>
               
               <p 
@@ -257,9 +254,8 @@ const About = () => {
                   fontFamily: "'Comfortaa', cursive"
                 }}
               >
-                Today, I partner with professionals at all levels, from early 
-                career to executive leadership to navigate transitions, develop 
-                skills, and build careers that are both successful and fulfilling.
+                My career began in Human Resources, but quickly evolved into cross-functional leadership across:
+
               </p>
             </div>
 

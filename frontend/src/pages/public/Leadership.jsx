@@ -335,68 +335,13 @@ const LeadershipPeopleStrategy = () => {
                 />
               </div>
               
-              {/* Floating Card */}
-              <div 
-                className="absolute -bottom-6 -left-6 p-4 rounded-xl shadow-lg backdrop-blur-sm max-w-[200px]"
-                style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.95)",
-                  border: "1px solid #D0DDEE"
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <TrendingUp className="w-4 h-4" style={{ color: "#16a34a" }} />
-                  <span className="text-xs font-medium" style={{ color: "#194C63" }}>Leadership teams</span>
-                </div>
-                <p className="text-2xl font-bold" style={{ color: "#194C63" }}>50+</p>
-                <p className="text-xs" style={{ color: "#748DB0" }}>Organizations advised</p>
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
 
-      {/* Benefits Section */}
-      <section className="py-5 lg:py-10" style={{ backgroundColor: "#FFFFFF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 
-              className="text-2xl lg:text-3xl font-bold mb-4"
-              style={{ color: "#194C63" }}
-            >
-              Why Strategic People Leadership Matters
-            </h2>
-            <p 
-              className="text-lg max-w-2xl mx-auto"
-              style={{ color: "#3C637B" }}
-            >
-              Align your people strategy with business objectives for sustainable success
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit, index) => (
-              <div
-                key={index}
-                className="p-6 rounded-xl transition-all hover:shadow-lg"
-                style={{
-                  backgroundColor: "#F5FAFD",
-                  border: "1px solid #D0DDEE"
-                }}
-              >
-                <div 
-                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "rgba(25, 76, 99, 0.1)" }}
-                >
-                  <div style={{ color: "#194C63" }}>{benefit.icon}</div>
-                </div>
-                <h3 className="font-bold mb-2" style={{ color: "#194C63" }}>{benefit.title}</h3>
-                <p className="text-sm" style={{ color: "#3C637B" }}>{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Strategy Areas Grid */}
       <section className="py-5 lg:py-10" style={{ backgroundColor: "#F5FAFD" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

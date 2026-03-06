@@ -26,6 +26,10 @@ import HRAuditCompliance from "./pages/public/HRAudit";
 import RecruitmentAdvisory from "./pages/public/Recruitment";
 import LeadershipPeopleStrategy from "./pages/public/Leadership";
 import OrganizationalDevelopment from "./pages/public/OrgDevelopment";
+import AdminBlog from "./pages/admin/AdminBlog";
+import CreateBlog from "./pages/admin/CreateBlog";
+import BlogPage from "./pages/public/BlogPage";
+import BlogPost from "./pages/public/BlogPost";
 
 
 
@@ -52,6 +56,8 @@ function App() {
             <Route path="/services/org/recruitment-advisory" element={<RecruitmentAdvisory/>}/>
             <Route path="/services/org/leadership-strategy" element={<LeadershipPeopleStrategy/>}/>
             <Route path="/services/org/organizational-development" element={<OrganizationalDevelopment/>}/>
+            <Route path="/articles" element={<BlogPage/>}/>
+            <Route path="/articles/:slug" element={<BlogPost />} />
             
 
           
@@ -74,6 +80,10 @@ function App() {
           <Route path="/admin/newsletters" element={<ProtectedRoute><Newsletter /></ProtectedRoute>} />
           <Route path="/admin/individual" element={<ProtectedRoute><IndividualOrders /></ProtectedRoute>} />
           <Route path="/admin/organization" element={<ProtectedRoute><OrganizationInquiries/></ProtectedRoute>}/>
+          <Route path="/admin/blog" element={<AdminBlog />} />
+          <Route path="/admin/blog/create" element={<CreateBlog />} />
+          <Route path="/admin/blog/edit:id" element={<CreateBlog/>}/>
+
           
           </Routes>
           </BrowserRouter>

@@ -9,7 +9,9 @@ const Navbar = () => {
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/services", label: "Services" },
+    
     { path: "/product", label: "Products" },
+    { path: "/articles", label: "Insights & Resources" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -85,7 +87,7 @@ const Navbar = () => {
                 }}
               >
                 <Calendar className="w-4 h-4" />
-                Book Now
+                Schedule a Strategy Call
               </a>
             </div>
 
@@ -147,7 +149,7 @@ const Navbar = () => {
                 >
                   <div className="flex items-center justify-center gap-2">
                     <Calendar className="w-4 h-4" />
-                    Book Appointment
+                    Schedule a Strategy Call
                   </div>
                 </a>
                 

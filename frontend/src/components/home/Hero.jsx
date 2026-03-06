@@ -51,7 +51,7 @@ const Hero = () => {
                 className="text-sm font-semibold relative z-10 tracking-wide"
                 style={{ color: "#B3785A", fontFamily: "'Comfortaa', cursive" }}
               >
-                HR Consultant & Career Coach
+                People Systems & Leadership Advisor
               </span>
             </div>
 
@@ -110,9 +110,8 @@ const Hero = () => {
                 fontWeight: 400
               }}
             >
-              I support individuals and organizations through human-centered HR
-              practices, personal development, and career coaching to achieve
-              sustainable growth and lasting success.
+              I help organisations and professionals build clarity, structure, and sustainable performance through strategic HR and governance systems.
+
             </p>
 
             {/* CTA Buttons */}

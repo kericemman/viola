@@ -286,7 +286,7 @@ const RecruitmentAdvisory = () => {
                     border: "1px solid #D0DDEE"
                   }}
                 >
-                  <Clock className="w-5 h-5 mb-2" style={{ color: "#194C63" }} />
+                  
                   <p className="text-sm font-medium" style={{ color: "#748DB0" }}>Duration</p>
                   <p className="text-sm font-semibold" style={{ color: "#194C63" }}>{service.duration}</p>
                 </div>
@@ -297,7 +297,7 @@ const RecruitmentAdvisory = () => {
                     border: "1px solid #D0DDEE"
                   }}
                 >
-                  <UserPlus className="w-5 h-5 mb-2" style={{ color: "#B3785A" }} />
+                  
                   <p className="text-sm font-medium" style={{ color: "#748DB0" }}>Focus</p>
                   <p className="text-sm font-semibold" style={{ color: "#194C63" }}>Talent Acquisition</p>
                 </div>
@@ -335,20 +335,7 @@ const RecruitmentAdvisory = () => {
               </div>
               
               {/* Floating Card */}
-              <div 
-                className="absolute -bottom-6 -left-6 p-4 rounded-xl shadow-lg backdrop-blur-sm max-w-[200px]"
-                style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.95)",
-                  border: "1px solid #D0DDEE"
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <TrendingUp className="w-4 h-4" style={{ color: "#16a34a" }} />
-                  <span className="text-xs font-medium" style={{ color: "#194C63" }}>Time-to-Hire</span>
-                </div>
-                <p className="text-2xl font-bold" style={{ color: "#194C63" }}>40%</p>
-                <p className="text-xs" style={{ color: "#748DB0" }}>Average reduction</p>
-              </div>
+              
             </div>
           </div>
         </div>

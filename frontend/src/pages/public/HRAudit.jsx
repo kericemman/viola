@@ -173,22 +173,13 @@ const HRAuditCompliance = () => {
       area: "Employment Contracts",
       items: ["Contract compliance", "Offer letter templates", "Independent contractor agreements", "NDA and IP agreements"]
     },
-    {
-      area: "Personnel Records",
-      items: ["File organization", "Document retention", "Confidentiality", "Record accessibility"]
-    },
+   
     {
       area: "Payroll & Benefits",
       items: ["Payroll compliance", "Benefits administration", "Leave tracking", "Overtime practices"]
     },
-    {
-      area: "Performance Management",
-      items: ["Review processes", "Documentation of feedback", "Performance improvement plans", "Termination procedures"]
-    },
-    {
-      area: "Compliance & Risk",
-      items: ["Labor law compliance", "Regulatory reporting", "Poster compliance", "Training records"]
-    }
+  
+    
   ];
 
   const process = [
@@ -334,21 +325,7 @@ const HRAuditCompliance = () => {
                 />
               </div>
               
-              {/* Floating Card */}
-              <div 
-                className="absolute -bottom-6 -left-6 p-4 rounded-xl shadow-lg backdrop-blur-sm max-w-[200px]"
-                style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.95)",
-                  border: "1px solid #D0DDEE"
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <Scale className="w-4 h-4" style={{ color: "#16a34a" }} />
-                  <span className="text-xs font-medium" style={{ color: "#194C63" }}>Risk Reduction</span>
-                </div>
-                <p className="text-2xl font-bold" style={{ color: "#194C63" }}>100%</p>
-                <p className="text-xs" style={{ color: "#748DB0" }}>Compliance confidence</p>
-              </div>
+              
             </div>
           </div>
         </div>

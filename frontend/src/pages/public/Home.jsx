@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import Hero from '../../components/home/Hero'
 import About from '../../components/home/About'
+import HowIWork from '../../components/home/How'
+
 
 
 const Home = () => {
@@ -11,7 +13,7 @@ const Home = () => {
     <div>
       <Hero/>
       <About/>
-      {/* <TestimonialsSection/> */}
+      <HowIWork/>
     </div>
   )
 }

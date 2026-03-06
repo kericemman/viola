@@ -15,6 +15,9 @@ const contactRoutes = require("./contact.routes");
 const servicesPaymentRoutes = require("./service.payment.routes");
 const individualOrderRoutes = require("./individualOrder.routes");
 const orgInquiryRoutes = require("./orgInquiry.routes");
+const blogRoutes = require("./blog.routes");
+
+
 
 
 
@@ -42,6 +45,7 @@ router.use("/service-payments", servicesPaymentRoutes);
 
 router.use("/individual-orders", individualOrderRoutes);
 router.use("/organization-inquiries", orgInquiryRoutes);
+router.use("/blogs", blogRoutes);
 
 
 

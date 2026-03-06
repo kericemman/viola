@@ -19,21 +19,20 @@ const Footer = () => {
 
   const footerLinks = {
     Services: [
-      { name: "Career Coaching", path: "/services/career-coaching" },
-      { name: "HR Consulting", path: "/services/hr-consulting" },
-      { name: "Leadership Development", path: "/services/leadership" },
-      { name: "Resume Review", path: "/services/resume" }
+      { name: "People & HR", path: "/services/org/people-systems" },
+      { name: "Organization Capacity", path: "/services/org/capacity-assessment" },
+      { name: "Leadership Development", path: "/services/org/leadership-strategy" },
+
+
     ],
     Products: [
       { name: "Online Courses", path: "/products/courses" },
-      { name: "E-books", path: "/products/ebooks" },
-      { name: "Templates", path: "/products/templates" },
-      { name: "Toolkits", path: "/products/toolkits" }
+      { name: "Resources", path: "/product" },
+      
     ],
     Company: [
-      { name: "About", path: "/about" },
-      { name: "Blog", path: "/blog" },
-      { name: "Testimonials", path: "/testimonials" },
+      { name: "About", path: "/home" },
+      
       { name: "Contact", path: "/contact" }
     ]
   };

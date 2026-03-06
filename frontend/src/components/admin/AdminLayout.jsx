@@ -10,6 +10,7 @@ const AdminLayout = ({ children }) => {
     { path: "/admin/requests", label: "Requests" },
     { path: "/admin/individual", label: "Individual Inquiries" },
     { path: "/admin/organization", label: "Organization Inquiries" },
+    { path: "/admin/blog", label: "Blogs"},
     { path: "/admin/products", label: "Products" },
     { path: "/admin/bookings", label: "Bookings" },
     { path: "/admin/availability", label: "Availability" },

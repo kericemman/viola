@@ -139,28 +139,7 @@ const OrganizationalCapacityAssessment = () => {
     approach: "Participatory, strengths-based, and tailored to your organization's context and goals"
   };
 
-  const benefits = [
-    {
-      icon: <BarChart3 className="w-6 h-6" />,
-      title: "Holistic Assessment",
-      description: "Comprehensive review across all key organizational functions and systems"
-    },
-    {
-      icon: <Target className="w-6 h-6" />,
-      title: "Practical Roadmap",
-      description: "Actionable, phased plan that respects your organization's capacity and resources"
-    },
-    {
-      icon: <Shield className="w-6 h-6" />,
-      title: "Strengths-Based Approach",
-      description: "Build on what's working while addressing critical gaps"
-    },
-    {
-      icon: <TrendingUp className="w-6 h-6" />,
-      title: "Sustainable Growth",
-      description: "Lay the foundation for long-term organizational resilience and impact"
-    }
-  ];
+  
 
   const process = [
     {
@@ -199,21 +178,10 @@ const OrganizationalCapacityAssessment = () => {
       items: ["Policies and procedures", "Administrative systems", "Technology infrastructure", "Risk management"]
     },
     {
-      area: "Financial Management",
-      items: ["Budgeting and planning", "Financial controls", "Sustainability planning", "Donor compliance"]
+      area: "People & Culture",
+      items: ["Talent management", "Staff development", "Organizational culture", "Diversity and inclusion"]
     },
-    {
-      area: "Human Resources",
-      items: ["Staff structure and roles", "Performance management", "Professional development", "Culture and retention"]
-    },
-    {
-      area: "Program Delivery",
-      items: ["Program design and quality", "M&E systems", "Impact measurement", "Learning and adaptation"]
-    },
-    {
-      area: "External Relations",
-      items: ["Partnerships and networks", "Communications", "Fundraising capacity", "Stakeholder engagement"]
-    }
+    
   ];
 
   return (
@@ -332,68 +300,13 @@ const OrganizationalCapacityAssessment = () => {
                 />
               </div>
               
-              {/* Floating Card */}
-              <div 
-                className="absolute -bottom-6 -left-6 p-4 rounded-xl shadow-lg backdrop-blur-sm max-w-[200px]"
-                style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.95)",
-                  border: "1px solid #D0DDEE"
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <Award className="w-4 h-4" style={{ color: "#16a34a" }} />
-                  <span className="text-xs font-medium" style={{ color: "#194C63" }}>Organizations</span>
-                </div>
-                <p className="text-2xl font-bold" style={{ color: "#194C63" }}>5+</p>
-                <p className="text-xs" style={{ color: "#748DB0" }}>Assessments completed</p>
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
 
-      {/* Benefits Section */}
-      <section className="py-5 lg:py-10" style={{ backgroundColor: "#FFFFFF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 
-              className="text-2xl lg:text-3xl font-bold mb-4"
-              style={{ color: "#194C63" }}
-            >
-              Why Conduct a Capacity Assessment?
-            </h2>
-            <p 
-              className="text-lg max-w-2xl mx-auto"
-              style={{ color: "#3C637B" }}
-            >
-              Understand where you are, where you want to go, and how to get there
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit, index) => (
-              <div
-                key={index}
-                className="p-6 rounded-xl transition-all hover:shadow-lg"
-                style={{
-                  backgroundColor: "#F5FAFD",
-                  border: "1px solid #D0DDEE"
-                }}
-              >
-                <div 
-                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "rgba(25, 76, 99, 0.1)" }}
-                >
-                  <div style={{ color: "#194C63" }}>{benefit.icon}</div>
-                </div>
-                <h3 className="font-bold mb-2" style={{ color: "#194C63" }}>{benefit.title}</h3>
-                <p className="text-sm" style={{ color: "#3C637B" }}>{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+    
       {/* Assessment Areas Grid */}
       <section className="py-5 lg:py-10" style={{ backgroundColor: "#F5FAFD" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -502,61 +415,7 @@ const OrganizationalCapacityAssessment = () => {
         </div>
       </section>
 
-      {/* Deliverables & Process */}
-      <section className="py-5 lg:py-10" style={{ backgroundColor: "#F5FAFD" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-8">
-            {/* Deliverables Card */}
-            <div 
-              className="lg:col-span-1 p-8 rounded-2xl"
-              style={{
-                backgroundColor: "#194C63",
-                backgroundImage: "radial-gradient(circle at 20% 80%, rgba(179, 120, 90, 0.2) 0%, transparent 50%)"
-              }}
-            >
-              <h3 className="text-xl font-bold mb-6 text-white">Deliverables</h3>
-              <div className="space-y-4">
-                {service.deliverables.map((item, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 mt-0.5 flex-shrink-0 text-white/80" />
-                    <span className="text-white/90">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Process Timeline */}
-            <div className="lg:col-span-2">
-              <h2 className="text-2xl lg:text-3xl font-bold mb-8" style={{ color: "#194C63" }}>
-                Our Assessment Process
-              </h2>
-              <div className="space-y-4">
-                {process.map((step) => (
-                  <div
-                    key={step.step}
-                    className="flex gap-4 p-4 rounded-xl"
-                    style={{
-                      backgroundColor: "#FFFFFF",
-                      border: "1px solid #D0DDEE"
-                    }}
-                  >
-                    <div 
-                      className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-                      style={{ backgroundColor: "rgba(25, 76, 99, 0.1)" }}
-                    >
-                      <span className="font-bold" style={{ color: "#194C63" }}>{step.step}</span>
-                    </div>
-                    <div>
-                      <h3 className="font-bold mb-1" style={{ color: "#194C63" }}>{step.title}</h3>
-                      <p className="text-sm" style={{ color: "#3C637B" }}>{step.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Outcome Section */}
       <section 
